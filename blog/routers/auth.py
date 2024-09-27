@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
 from typing import Annotated
 from sqlalchemy.orm import Session
-from .. import schemas, database, models, hashing
+from blog import schemas, database, models, hashing
 from datetime import timedelta
 
 
